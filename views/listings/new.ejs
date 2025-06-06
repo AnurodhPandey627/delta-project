@@ -10,9 +10,6 @@
                     <div class="form-item">
                         <label for="title" class="form-label">Title</label>
                         <input type="text"  id="title" class="form-control" name="listing[title]" placeholder="enter title" required>
-                        <div class="valid-feedback">
-                           Title Looks good!
-                        </div>
                         <div class="invalid-feedback">
                             Title is not valid.
                         </div>
@@ -29,6 +26,9 @@
                     <div class="form-item">
                         <label for="image" class="form-label">Upload Listing Image</label>
                         <input type="file"  id="image" class="form-control" name="listing[image]" placeholder="enter image url/link" required>
+                        <div class="invalid-feedback">
+                            Please upload listing image.
+                        </div>
                     </div>
                 
                     <div class="row">
